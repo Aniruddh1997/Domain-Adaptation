@@ -1,0 +1,8 @@
+We have implemented NAM, VAE-NAM, WAE-NAM and our proposed new model for 3 kinds of tasks,
+edges2shoes, MNIST->SVHN and SVHN->MNIST. To run the NAM, VAE-NAM and WAE-NAM model, go to
+the NAM-Master folder and run the train_nam file for training and eval_variational to 
+test the model. For both of them, you need to give two arguments. First one can be "nam"(
+for basic NAM), "vae"(for VAE-NAM) or "wae"(for WAE-NAM). The second argument can be
+"shoes"(for edges2shoes), "mnist"(for SVHN->MNIST) or "svhn"(for MNIST->SVHN).
+For our proposed model, go to the Latest folder and run wae_mmd_shoes for training the
+model and eval.py for testing the model. No extra arguments required.
